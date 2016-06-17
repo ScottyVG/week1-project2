@@ -140,10 +140,9 @@ console.log(reversedItems);
 //     called numberPets whose value is [12, 5, 9, 27, 'fish', 'dog']
 var firstArray = [12, 5, 9, 27];
 var secondArray = ['fish', 'dog'];
-var numberPets = firstArray.splice(3, 0, ['fish', 'dog']);;
+var numberPets = firstArray.concat(secondArray);
 console.log(numberPets);
-//GRRR not working
-alert("Still need to solve Problem 17");
+
 
 
 // 18: Try to arrange the following items from smallest to largest:
